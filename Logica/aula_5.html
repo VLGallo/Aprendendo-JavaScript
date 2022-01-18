@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+</head>
+
+<body>
+    <script>
+        function pulaLinha() {
+            document.write("<br><br>");
+        }
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+        function calculaImc(altura, peso) {
+            var imc = peso / (altura * altura);
+            return imc;
+        }
+
+        var imcVanessa = calculaImc(1.60, 125);
+        var imcVinicius = calculaImc(1.85, 102);
+        mostra("O imc da Vanessa é " + imcVanessa);
+        mostra(" o imc do Vinicius é " + imcVinicius);
+    </script>
+
+
+
+    <script>
+        //outra opção de código, sem variáveis auxiliares
+        function calculaImc2(altura, peso) {
+            return peso / (altura * altura);
+        }
+        document.write(" A soma dos IMC's é " + (calculaImc2(1.60, 125) + calculaImc2(1.85, 102)));
+    </script>
+</body>
+
+</html>
