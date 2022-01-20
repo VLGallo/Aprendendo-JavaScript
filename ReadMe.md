@@ -42,7 +42,7 @@ Estou utilizando os cursos da plataforma Alura para me aprofundar na linguagem j
 - [Lógica de programação I: Os primeiros programas com Javascript e HTML](https://www.alura.com.br/curso-online-logica-programacao-javascript-html) - Professor: Flavio Almeida
 - [Lógica de programação II: pratique com desenhos, animações e um jogo](https://cursos.alura.com.br/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo) - Professor: Flávio Almeida
 
-✍️ Para documentar todo meu conhecimento estou utilizando o Blog CSM. Veja os meus posts sobre Javascript:
+✍️ Para documentar todo meu aprendizado estou utilizando o Blog [CSM](https://www.computersciencemaster.com.br/cursos-desenvolvimento-web/): 
 - [Ainda em construção](#)
 
 
