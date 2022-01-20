@@ -48,9 +48,9 @@ Estou utilizando os cursos da plataforma Alura para me aprofundar na linguagem j
 
 # Licença
 
-Esse repositório está sob licença Apache 2.0.
+Esse repositório está sob licença Apache 2.0. Saiba mais sobre essa licença clicando no link abaixo:
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Clique no link e saiba mais sobre essa licença.
+
 
