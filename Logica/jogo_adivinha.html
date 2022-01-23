@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Adivinha</title>
+</head>
+
+<body>
+    <script>
+
+        function pulaLinha() {
+
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+
+            document.write(frase);
+            pulaLinha();
+        }
+
+        function sorteia(n) {
+
+            return Math.round(Math.random() * n);
+
+        }
+
+      
+        var numeroPensado = sorteia(40);
+        console.log(numeroPensado);
+        var tentativas = 1;
+
+        while (tentativas <= 3) {
+            var chute = parseInt (prompt ("Pensei em um número. Qual você acha que é?"));
+            if (chute == numeroPensado) {
+                alert("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+                break;
+            } else {
+                if (chute > numeroPensado) {
+                    alert("Você errou! Seu chute é maior que o número pensado!");
+                } else {
+                    alert("Você errou! Seu chute é menor que o número pensado!");
+                }
+            }
+            tentativas++;
+        }
+        mostra("Fim.");
+    </script>
+</body>
+
+</html>

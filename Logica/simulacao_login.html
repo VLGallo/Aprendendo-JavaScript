@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <script>
+        function pulaLinha() {
+            document.write("<br><br>");
+        }
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+        var loginCadastrado = "alura";
+        var senhaCadastrada = "alura321";
+        var contador = 1;
+
+        while (contador <= 3) {
+            var loginInformado = prompt("Informe seu login");
+            var senhaInformada = prompt("Informe sua senha");
+
+            if (loginCadastrado != loginInformado && senhaCadastrada != senhaInformada) {
+                if (contador < 3) {
+                    console.log(contador);
+                    alert("Login inválido. Tente novamente");
+
+                } else {
+                    alert("Login inválido. Você não tem permissão para acessar nosso sistema");
+                }
+                contador = contador + 1;
+            } else {
+                alert("Bem-vindo ao sistema, " + loginInformado);
+                break;
+            }
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

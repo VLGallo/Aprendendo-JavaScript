@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+</head>
+
+<body>
+    <script>
+        function pulaLinha() {
+            document.write("<br><br>");
+        }
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var vitorias = parseInt(prompt("Digite o número de vitórias."));
+        var empates = parseInt(prompt("Digite o número de empates."));
+        var pontos = vitorias * 3 + empates;
+        mostra("A pontuação do seu time é " + pontos);
+
+        if (pontos > 28) {
+            mostra("Seu time está melhor que ano passado.");
+        }
+        if (pontos < 28) {
+            mostra("Seu time está pior que ano passado.");
+        }
+        if (pontos == 28) {
+            mostra("Seu time está igual ao ano passado.");
+        }
+    </script>
+
+ </body>
+
+</html>

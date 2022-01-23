@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 4</title>
+    <title>Estrelas</title>
 </head>
 
 <body>
     <script>
         function pulaLinha() {
-            document.write("<br><hr><br>");
+
+            document.write("<br>");
         }
         function mostra(frase) {
+
             document.write(frase);
             pulaLinha();
         }
 
-        var ano = 2021;
-        mostra("Gustavo tem " + (ano - 1977) + " anos.");
-        mostra("Sueli tem " + (ano - 1955) + " anos.");
-        mostra("Nelson tem " + (ano - 1948) + " anos.");
-        mostra("A idade da Vanessa é " + (ano - 1989) + " anos.");
+
+        for (var linha = 1; linha <= 3; linha++) {
+            for (var coluna = 1; coluna <= 10; coluna++) {
+                document.write("*");
+            }
+            pulaLinha();
+        }
 
     </script>
 </body>

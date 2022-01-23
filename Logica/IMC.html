@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
 </head>
+
 <body>
-<script>
-    function calculaImc (altura, peso){
-        return peso / (altura*altura)
-    }
-var nome = prompt("Informe o seu nome");
-var altura = prompt(nome + ", informe sua altura");
-var peso = prompt(nome + ", informe seu peso");
-var imc = calculaImc(altura, peso);
-document.write(nome + ", o seu IMC é " + imc);
-</script>
+    <script>
+        function calculaImc(altura, peso) {
+            return peso / (altura * altura)
+        }
+        var nome = prompt("Informe o seu nome");
+        var altura = prompt(nome + ", informe sua altura");
+        var peso = prompt(nome + ", informe seu peso");
+        var imc = calculaImc(altura, peso);
+        document.write(nome + ", o seu IMC é " + imc + ".<br>");
+
+        if (imc < 18.5) {
+            document.write("Você está abaixo do recomendado. <br>");
+        }
+        if (imc > 35) {
+            document.write("Você está acima do recomendado. <br>");
+        }
+        if (imc >= 18.5 && imc <= 35){
+            document.write("Você está dentro do recomendado. <br>");
+        }
+    </script>
 </body>
+
 </html>
