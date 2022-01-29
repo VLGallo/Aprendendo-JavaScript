@@ -2,7 +2,7 @@
 
 Nesse projeto meu objetivo foi construir uma calculadora simples usando apenas recursos nativos do javascript e claro melhorar minhas habilidades em HTML e CSS. 
 
-Para isso nossa calculadora deve seguir os seguintes requisitos:
+🎯 Para isso nossa calculadora deve seguir os seguintes requisitos:
 
 | RF# |                                                                Descrição                                                                |
 |-----|:---------------------------------------------------------------------------------------------------------------------------------------:|
@@ -14,7 +14,7 @@ Para isso nossa calculadora deve seguir os seguintes requisitos:
 | RF6 | Possuir um botão para limpar todas as variáveis e os números no visor                                                                   |
 | RF7 | Exibir mensagem de erro quando for feita uma divisão por zero                                                                           |
 
-# Tecnologias utilizadas
+# 💻 Tecnologias utilizadas
 
 
 Para esse projeto utilizamos as seguintes tecnologias:
