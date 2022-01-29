@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="functions.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body class="centering">
+    <div class="quadradoExterno">
+        <div class="visor">
+        </div>
+        <div class="botoes">
+            <button class="botao" onclick="operar('sqrt')">√</button>
+            <button class="botao numero" onclick="digitar(7)">7</button>
+            <button class="botao numero" onclick="digitar(8)">8</button>
+            <button class="botao numero" onclick="digitar(9)">9</button>
+            <button class="botao" onclick="operar('÷')">÷</button>
+            <button class="botao" onclick="operar('sqr')">x²</button>
+            <button class="botao numero" onclick="digitar(4)">4</button>
+            <button class="botao numero" onclick="digitar(5)">5</button>
+            <button class="botao numero" onclick="digitar(6)">6</button>
+            <button class="botao" onclick="operar('x')">x</button>
+            <button class="botao" onclick="limpar('C')">C</button>
+            <button class="botao numero" onclick="digitar(1)">1</button>
+            <button class="botao numero" onclick="digitar(2)">2</button>
+            <button class="botao numero" onclick="digitar(3)">3</button>
+            <button class="botao" onclick="operar('-')">-</button>
+            <button class="botao" onclick="limpar('seta')">←</button>
+            <button class="botao numero" onclick="digitar(0)">0</button>
+            <button class="botao" onclick="digitar('.')">.</button>
+            <button class="botao" onclick="igualdade()">=</button>
+            <button class="botao" onclick="operar('+')">+</button>
+        </div>
+    </div>
+</body>
+
+</html>
