@@ -4,15 +4,15 @@ Nesse projeto meu objetivo foi construir uma calculadora simples usando apenas r
 
 🎯 Para isso nossa calculadora deve seguir os seguintes requisitos:
 
-| RF# |                                                                Descrição                                                                |
-|-----|:---------------------------------------------------------------------------------------------------------------------------------------:|
+| RF# | Descrição                                                                                                                               |
+|-----|-----------------------------------------------------------------------------------------------------------------------------------------|
 | RF1 | Possuir um teclado numérico (0-9) funcional, no qual os números devem ser apresentados no visor a medida que os botões são pressionados |
 | RF2 | Possuir botões de operações básicas da matemática (soma, subtração, multiplicação e divisão)                                            |
 | RF3 | Possuir botões para exponenciação e radiciação (quadradas)                                                                              |
 | RF4 | Deve aceitar números decimais                                                                                                           |
 | RF5 | Possuir um botão para limpar os últimos caracteres digitados                                                                            |
 | RF6 | Possuir um botão para limpar todas as variáveis e os números no visor                                                                   |
-| RF7 | Exibir mensagem de erro quando for feita uma divisão por zero                                                                           |
+| RF7 | Exibir mensagem de erro quando for feita uma divisão por zero                                                                           |                                                                        |
 
 # 💻 Tecnologias utilizadas
 
