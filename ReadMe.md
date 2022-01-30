@@ -31,10 +31,10 @@ O aprendizado de qualquer linguagem ou tecnologia é contínuo. Sendo assim, vou
     -  ✔️ estruturas condicionais
     -  ✔️ laços de repetição 
     -  ⏲️ matrizes e vetores
-    -  ⏲️ funções
+    -  ✔️ funções
 - 🎯 Criar uma aplicação funcional usando javascript puro 
     - ⏲️ Calculadora de IMC
-    - ⏲️ Calculadora 
+    - ✔️ Calculadora 
 
 # Materiais de referência
 
