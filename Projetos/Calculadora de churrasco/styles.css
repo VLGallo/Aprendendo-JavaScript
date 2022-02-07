@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.centralizacao{
+    display: flex;
+    justify-content: center;
+}
+.quadradoExterno {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    height: 800px;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.escolha {
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.opcaoCarnes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.convidados {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+button {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+     font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 5px 10px 5px;
+    border: solid #000000 3px;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #f78888;
+    text-decoration: none;
+}
+
+.resultado{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.resultado li{
+    padding: 6px;
+}
+
