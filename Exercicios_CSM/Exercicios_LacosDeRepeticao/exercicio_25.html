@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 25</title>
+</head>
+
+<body>
+    <!--  Faça um programa para calcular n! (Fatorial de n), sendo que o valor inteiro de n é fornecido pelo usuário. Sabe-se que: N! = 1 * 2 * 3 * … (n – 1) * n; 0! = 1, por definição;   -->
+    <script>
+        var n = parseInt(prompt("Digite um número inteiro."));
+        var fatorial = 1;
+
+        for (let i = n; i > 1; i--) {
+            fatorial = fatorial * i;
+        }
+
+        document.write("O fatorial de " + n + " é igual a " + fatorial + " .");
+
+    </script>
+</body>
+
+</html>

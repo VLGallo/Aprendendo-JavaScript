@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+</head>
+
+<body>
+    <!-- Faça um programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-vespertino ou N-noturno. Imprima a mensagem “Bom dia!” ou  “Boa Noite” ou “Valor inválido”, conforme o caso. -->
+    <script>
+        const letra = prompt("Digite a inicial do período que você estuda.");
+
+        if (letra == "M" || letra == "m") {
+            document.write("Bom dia.");
+        }
+        else if (letra == "V" || letra == "v") {
+            document.write("Boa tarde.");
+        }
+        else if (letra == "N" || letra == "n") {
+            document.write("Boa noite.");
+        } else {
+            document.write("Valor inválido.");
+        }
+    </script>
+</body>
+
+</html>

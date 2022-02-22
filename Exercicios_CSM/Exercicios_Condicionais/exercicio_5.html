@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+
+<body>
+    <!–- Faça um programa para a leitura de duas notas parciais de um aluno. A mensagem “Aprovado”, se a média alcançada
+        for maior ou igual a sete; A mensagem “Aprovado com Distinção”, se a média for igual a dez; A mensagem
+        “Reprovado” se a média for menor de do que sete; -->
+
+        <script>
+            function calculaMedia(nota1, nota2) {
+                return (nota1 + nota2) / 2
+            }
+
+            var nota1 = parseFloat(prompt("Digite a primeira nota do aluno."));
+            var nota2 = parseFloat(prompt("Digite a segunda nota do aluno."));
+            var media = calculaMedia(nota1, nota2);
+
+            document.write("A média do aluno é " + media + ".<br>");
+
+            if (media == 10) {
+                document.write("Aprovado com Distinção.");
+            }
+            if (media >= 7 && media < 10) {
+                document.write("Aprovado");
+            }
+            else {
+                document.write("Reprovado");
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+</head>
+
+<body>
+    <!-- Faça um programa que receba a idade de 15 pessoas e que calcule e mostre:
+a) A quantidade de pessoas em cada faixa etária;
+b) A percentagem de pessoas na primeira e na última faixa etária, com relação ao total de pessoas: 
+Até 15 anos
+De 16 a 30 anos
+De 31 a 45 anos
+De 46 a 60 anos
+Acima de 61 anos -->
+    <script>
+        var faixa1 = 0;
+        var faixa2 = 0;
+        var faixa3 = 0;
+        var faixa4 = 0;
+        var faixa5 = 0
+
+        for (let i = 0; i < 15; i++) {
+            var idade = parseInt(prompt("Digite sua idade."));
+            if (idade <= 15){
+                faixa1++;
+            }
+            else if (idade >= 16 && idade <= 30){
+                faixa2++;
+            }
+            else if (idade >= 31 && idade <= 45){
+                faixa3++;
+            }
+            else if (idade >= 46 && idade <= 60){
+                faixa4++;
+            } else {
+                faixa5++;
+            }
+        }
+         document.write("Existem " + faixa1 + " pessoas até 15 anos.<br>");
+         document.write("Existem " + faixa2 + " pessoas de 16 a 30 anos.<br>");
+         document.write("Existem " + faixa3 + " pessoas de 31 a 45 anos.<br>");
+         document.write("Existem " + faixa4 + " pessoas de 46 a 60 anos.<br>");
+         document.write("Existem " + faixa5 + " pessoas acima de 60 anos.<br><hr>");
+
+         document.write("Estão na primeira faixa " + faixa1/15*100 + "% de pessoas.<br>");
+         document.write("Estão na última faixa " + faixa5/15*100 + "% de pessoas.<br>");
+    </script>
+</body>
+
+</html>
