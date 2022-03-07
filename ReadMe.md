@@ -32,9 +32,13 @@ O aprendizado de qualquer linguagem ou tecnologia é contínuo. Sendo assim, vou
     -  ✔️ laços de repetição 
     -  ⏲️ matrizes e vetores
     -  ✔️ funções
+    -  ⏲️ Classes e objetos
+    -  ✔️ Eventos
+    -  ✔️ Manipulação do DOM
 - 🎯 Criar uma aplicação funcional usando javascript puro 
     - ⏲️ Calculadora de IMC
     - ✔️ Calculadora 
+    - 
 
 # Materiais de referência
 
@@ -44,6 +48,7 @@ Estou utilizando os cursos da plataforma Alura para me aprofundar na linguagem j
 
 ✍️ Para documentar todo meu aprendizado estou utilizando o Blog [CSM](https://www.computersciencemaster.com.br/cursos-desenvolvimento-web/): 
 - [Introdução ao Javascript - os primeiros passos](https://www.computersciencemaster.com.br/introducao-ao-javascript-os-primeiros-passos/)
+- [Javascript - Eventos em Javascript](https://www.computersciencemaster.com.br/eventos-com-javascript/)
 
 
 # Licença
