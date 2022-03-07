@@ -36,9 +36,9 @@ O aprendizado de qualquer linguagem ou tecnologia é contínuo. Sendo assim, vou
     -  ✔️ Eventos
     -  ✔️ Manipulação do DOM
 - 🎯 Criar uma aplicação funcional usando javascript puro 
-    - ⏲️ Calculadora de IMC
+    - ✔️ Calculadora de IMC
     - ✔️ Calculadora 
-    - 
+    - ⏲️ Sistema de venda de maquiagem (e-commerce)
 
 # Materiais de referência
 
