@@ -49,6 +49,7 @@ Estou utilizando os cursos da plataforma Alura para me aprofundar na linguagem j
 ✍️ Para documentar todo meu aprendizado estou utilizando o Blog [CSM](https://www.computersciencemaster.com.br/cursos-desenvolvimento-web/): 
 - [Introdução ao Javascript - os primeiros passos](https://www.computersciencemaster.com.br/introducao-ao-javascript-os-primeiros-passos/)
 - [Javascript - Eventos em Javascript](https://www.computersciencemaster.com.br/eventos-com-javascript/)
+- [Como manipular o DOM em javascript](https://www.computersciencemaster.com.br/como-manipular-o-dom-com-javascript/)
 
 
 # Licença
